@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="hbasejar">
+    <CLASSES>
+      <root url="file://F:/share/hbasejar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://F:/share/hbasejar" recursive="false" />
+  </library>
+</component>
