@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="jars">
     <CLASSES>
-      <root url="file://F:/share/spark-2.1.0-bin-hadoop2.7/spark-2.1.0-bin-hadoop2.7/jars" />
+      <root url="file://F:/bigData/服务器版本/spark-2.1.0-bin-hadoop2.6/spark-2.1.0-bin-hadoop2.6/jars" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="file://F:/share/spark-2.1.0-bin-hadoop2.7/spark-2.1.0-bin-hadoop2.7/jars" />
+      <root url="file://F:/bigData/服务器版本/spark-2.1.0-bin-hadoop2.6/spark-2.1.0-bin-hadoop2.6/jars" />
     </SOURCES>
-    <jarDirectory url="file://F:/share/spark-2.1.0-bin-hadoop2.7/spark-2.1.0-bin-hadoop2.7/jars" recursive="false" />
-    <jarDirectory url="file://F:/share/spark-2.1.0-bin-hadoop2.7/spark-2.1.0-bin-hadoop2.7/jars" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://F:/bigData/服务器版本/spark-2.1.0-bin-hadoop2.6/spark-2.1.0-bin-hadoop2.6/jars" recursive="false" />
+    <jarDirectory url="file://F:/bigData/服务器版本/spark-2.1.0-bin-hadoop2.6/spark-2.1.0-bin-hadoop2.6/jars" recursive="false" type="SOURCES" />
   </library>
 </component>
