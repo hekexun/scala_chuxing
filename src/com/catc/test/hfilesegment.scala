@@ -16,7 +16,7 @@ object hfilesegment {
     val sconf = new SparkConf().setAppName("HelloHbase").setMaster("local")//("spark://192.168.80.3:7077").setJars(List("G:\\IDEA_Project\\catc_bigdate\\out\\artifacts\\catc_bigdate_jar\\catc_bigdate.jar"));
     val sc = new SparkContext(sconf);
     val sqlContext = new SQLContext(sc);
-    val rdd=sc.textFile("file:\\\F:\上汽1\上汽1\chongqing\0*")//("hdfs://192.168.80.3:9000/txtfile2")
+    val rdd=sc.textFile("file:///D:/data/上汽/shenzhen")//("hdfs://192.168.80.3:9000/txtfile2")
       .map(x=>{(x.split("\t").apply(4),x.split("\t").apply(2))});
     val rdd2=rdd.map(t=>{(JSONObject.fromObject(t._1),t._2)}).map(z=>{
       val data0=z._1.get("Data").toString().split(",").apply(6);
